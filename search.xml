@@ -1,9 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[[译]使用Node.js 构建API网关]]></title>
+    <url>%2Fblog%2F2018%2F07%2F18%2F1%2F</url>
+    <content type="text"></content>
+      <categories>
+        <category>microservice Node.js</category>
+      </categories>
+      <tags>
+        <tag>微服务 node  nodejs node.js API Gateway API网关</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[使用kubeadm 在centOS 7.4部署单master kubernetes 1.11 集群]]></title>
     <url>%2Fblog%2F2018%2F07%2F18%2F1%2F</url>
     <content type="text"><![CDATA[一.前言本文开始之前假定你对kubernetes有一定的了解，掌握kubernetes基础架构，核心组件，核心对象。 掌握基础linux知识。 从本文你将得到完整的kubernetes集群部署知识，以及作者部署过程中的填坑经历。 二.环境准备1.服务器环境2.Docker安装与配置3.kubeadm组件安装与配置]]></content>
+      <categories>
+        <category>Cloud Native  kubernetes</category>
+      </categories>
       <tags>
         <tag>kubernetes k8s  kubeadm</tag>
       </tags>

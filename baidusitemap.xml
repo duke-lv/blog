@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+
+    
+  <url>
+    <loc>http://nicklv.github.io/blog/blog/2018/07/18/1/</loc>
+    <lastmod>2018-07-18T12:06:59.392Z</lastmod>
+    <data>
+        <display>
+        <title>使用kubeadm 在centOS 7.4部署单master kubernetes 1.11 集群</title>
+        <pubTime>2018-07-18T11:20:52.000Z</pubTime>
+        
+        <tag>kubernetes k8s  kubeadm</tag>
+         
+         
+           
+             
+              <breadCrumb title="Cloud Native  kubernetes" url="http://nicklv.github.io/blog/blog/categories/Cloud-Native-kubernetes/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://nicklv.github.io/blog/blog/2018/07/18/1/</loc>
+    <lastmod>2018-07-18T12:06:34.099Z</lastmod>
+    <data>
+        <display>
+        <title>[译]使用Node.js 构建API网关</title>
+        <pubTime>2018-07-18T12:03:43.000Z</pubTime>
+        
+        <tag>微服务 node  nodejs node.js API Gateway API网关</tag>
+         
+         
+           
+             
+              <breadCrumb title="microservice Node.js" url="http://nicklv.github.io/blog/blog/categories/microservice-Node-js/"/>
+          
+        </display>
+    </data>
+    </url>
+
+</urlset>
