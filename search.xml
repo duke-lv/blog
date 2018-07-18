@@ -3,7 +3,7 @@
   <entry>
     <title><![CDATA[[译]使用Node.js 构建API网关]]></title>
     <url>%2Fblog%2F2018%2F07%2F18%2F1%2F</url>
-    <content type="text"></content>
+    <content type="text"><![CDATA[原创作者：by Péter Márton(@slashdotpeter), CTO at RisingStack, microservices and brewing beer with Node.js 原创链接：https://blog.risingstack.com/building-an-api-gateway-using-nodejs/ 在微服务架构中，在让外部客户端访问服务时，有一些公共的需求，例如：权限认证、数据传输等等。而API 网关能够提供一个共享层来处理服务协议之间的差异，并能够满足特定客户端的需求，例如：浏览器端，移动客户端以及历史遗留系统等。 微服务与服务消费者API网关是什么？具有哪些特质？面向前端团队的Node.js API网关API网关功能路由和版本控制演进式设计鉴权数据聚合序列化格式转换协议转换限流和缓存有规划的API网关#Node.js API网关# #Node.js API网关总结#]]></content>
       <categories>
         <category>microservice Node.js</category>
       </categories>
