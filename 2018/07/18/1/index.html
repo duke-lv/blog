@@ -7,18 +7,18 @@
   
   <title>使用kubeadm 在centOS 7.4部署单master kubernetes 1.11 集群 | 欧阳广陌的博客</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="一.前言本文开始之前假定你对kubernetes有一定的了解，掌握kubernetes基础架构，核心组件，核心对象。 掌握基础linux知识。 从本文你将得到完整的kubernetes集群部署知识，以作者部署过程中的填坑经历。 二.环境准备1.服务器环境2.Docker安装与配置3.kubeadm组件安装与配置">
-<meta name="keywords" content="microservice nodejs kubernetes servicemesh service mesh k8s">
+  <meta name="description" content="一.前言本文开始之前假定你对kubernetes有一定的了解，掌握kubernetes基础架构，核心组件，核心对象。 掌握基础linux知识。 从本文你将得到完整的kubernetes集群部署知识，以及作者部署过程中的填坑经历。 二.环境准备1.服务器环境2.Docker安装与配置3.kubeadm组件安装与配置">
+<meta name="keywords" content="kubernetes k8s  kubeadm">
 <meta property="og:type" content="article">
 <meta property="og:title" content="使用kubeadm 在centOS 7.4部署单master kubernetes 1.11 集群">
 <meta property="og:url" content="http://nicklv.github.io/blog/2018/07/18/1/index.html">
 <meta property="og:site_name" content="欧阳广陌的博客">
-<meta property="og:description" content="一.前言本文开始之前假定你对kubernetes有一定的了解，掌握kubernetes基础架构，核心组件，核心对象。 掌握基础linux知识。 从本文你将得到完整的kubernetes集群部署知识，以作者部署过程中的填坑经历。 二.环境准备1.服务器环境2.Docker安装与配置3.kubeadm组件安装与配置">
+<meta property="og:description" content="一.前言本文开始之前假定你对kubernetes有一定的了解，掌握kubernetes基础架构，核心组件，核心对象。 掌握基础linux知识。 从本文你将得到完整的kubernetes集群部署知识，以及作者部署过程中的填坑经历。 二.环境准备1.服务器环境2.Docker安装与配置3.kubeadm组件安装与配置">
 <meta property="og:locale" content="zh-cn">
-<meta property="og:updated_time" content="2018-07-18T11:29:33.822Z">
+<meta property="og:updated_time" content="2018-07-18T11:46:17.501Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="使用kubeadm 在centOS 7.4部署单master kubernetes 1.11 集群">
-<meta name="twitter:description" content="一.前言本文开始之前假定你对kubernetes有一定的了解，掌握kubernetes基础架构，核心组件，核心对象。 掌握基础linux知识。 从本文你将得到完整的kubernetes集群部署知识，以作者部署过程中的填坑经历。 二.环境准备1.服务器环境2.Docker安装与配置3.kubeadm组件安装与配置">
+<meta name="twitter:description" content="一.前言本文开始之前假定你对kubernetes有一定的了解，掌握kubernetes基础架构，核心组件，核心对象。 掌握基础linux知识。 从本文你将得到完整的kubernetes集群部署知识，以及作者部署过程中的填坑经历。 二.环境准备1.服务器环境2.Docker安装与配置3.kubeadm组件安装与配置">
   
     <link rel="alternate" href="/blog/atom.xml" title="欧阳广陌的博客" type="application/atom+xml">
   
@@ -106,28 +106,20 @@
       
         <h1 id="一-前言"><a href="#一-前言" class="headerlink" title="一.前言"></a>一.前言</h1><pre><code>本文开始之前假定你对kubernetes有一定的了解，掌握kubernetes基础架构，核心组件，核心对象。
 掌握基础linux知识。
-从本文你将得到完整的kubernetes集群部署知识，以作者部署过程中的填坑经历。
+从本文你将得到完整的kubernetes集群部署知识，以及作者部署过程中的填坑经历。
 </code></pre><h1 id="二-环境准备"><a href="#二-环境准备" class="headerlink" title="二.环境准备"></a>二.环境准备</h1><h2 id="1-服务器环境"><a href="#1-服务器环境" class="headerlink" title="1.服务器环境"></a>1.服务器环境</h2><h2 id="2-Docker安装与配置"><a href="#2-Docker安装与配置" class="headerlink" title="2.Docker安装与配置"></a>2.Docker安装与配置</h2><h2 id="3-kubeadm组件安装与配置"><a href="#3-kubeadm组件安装与配置" class="headerlink" title="3.kubeadm组件安装与配置"></a>3.kubeadm组件安装与配置</h2>
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://nicklv.github.io/blog/2018/07/18/1/" data-id="cjjr1pqlj0000bokdkiz1wbe0" class="article-share-link">Share</a>
+      <a data-url="http://nicklv.github.io/blog/2018/07/18/1/" data-id="cjjr2a1vx00008ckd7csamscm" class="article-share-link">Share</a>
       
       
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/kubernetes-k8s-kubeadm/">kubernetes k8s  kubeadm</a></li></ul>
+
     </footer>
   </div>
   
     
-<nav id="article-nav">
-  
-  
-    <a href="/blog/2018/07/16/hello-world/" id="article-nav-older" class="article-nav-link-wrap">
-      <strong class="article-nav-caption">Older</strong>
-      <div class="article-nav-title">Hello World</div>
-    </a>
-  
-</nav>
-
   
 </article>
 
@@ -140,9 +132,23 @@
 
   
     
+  <div class="widget-wrap">
+    <h3 class="widget-title">Tags</h3>
+    <div class="widget">
+      <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/blog/tags/kubernetes-k8s-kubeadm/">kubernetes k8s  kubeadm</a></li></ul>
+    </div>
+  </div>
+
 
   
     
+  <div class="widget-wrap">
+    <h3 class="widget-title">Tag Cloud</h3>
+    <div class="widget tagcloud">
+      <a href="/blog/tags/kubernetes-k8s-kubeadm/" style="font-size: 10px;">kubernetes k8s  kubeadm</a>
+    </div>
+  </div>
+
   
     
   <div class="widget-wrap">
@@ -162,10 +168,6 @@
         
           <li>
             <a href="/blog/2018/07/18/1/">使用kubeadm 在centOS 7.4部署单master kubernetes 1.11 集群</a>
-          </li>
-        
-          <li>
-            <a href="/blog/2018/07/16/hello-world/">Hello World</a>
           </li>
         
       </ul>
